@@ -2,7 +2,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import FileResponse
 import shutil
 from pathlib import Path
-from utils import overlay_clothing_fixed
+from image_processing.image_process import overlay_clothing_fixed
 
 app = FastAPI()
 
